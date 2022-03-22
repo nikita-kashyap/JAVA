@@ -1,0 +1,24 @@
+class Student{
+    int roll;
+    String name;
+	String fname;
+    int cls;
+    
+    Student(int i,String n,String fn,int c){
+    roll = i;
+    name = n;
+	fname= fn;
+    cls = c;
+    }
+    void showData(){System.out.println("ROLL NO="+roll+"\n NAME="+name+"\n FATHER'S NAME= "+fname+"\n CLASS= "+cls);}	
+}
+class Student3
+{
+	public static void main(String args[])
+ {
+  Student s1 = new Student(111,"Karan","Vinod_Kumar",5);
+  Student s2 = new Student(222,"Aryan","Anil_Yadav",6);
+  s1.showData();
+  s2.showData();
+ }
+}
